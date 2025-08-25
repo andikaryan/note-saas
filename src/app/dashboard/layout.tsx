@@ -1,4 +1,4 @@
-import { DashboardNav } from "./nav";
+import { DashboardNav } from './nav';
 
 export default function DashboardLayout({
   children,
@@ -13,9 +13,7 @@ export default function DashboardLayout({
         </div>
       </div>
       <div className="col-span-4">
-        <div className="px-4 py-6 lg:px-8">
-          {children}
-        </div>
+        <div className="px-4 py-6 lg:px-8">{children}</div>
       </div>
     </div>
   );
